@@ -78,8 +78,6 @@ Task Listing:
 
 ## Database seeding
 
-**Populate the database with seed data with relationships which includes users, articles, comments, tags, favorites and follows. This can help you to quickly start testing the api or couple a frontend and start using it with ready content. THIS IS OPTIONAL**
-
 Run the database seeder and you're done
 
     php artisan db:seed
@@ -88,11 +86,5 @@ Run the database seeder and you're done
 
     php artisan migrate:refresh
 
-
-## Environment variables
-
-- `.env` - Environment variables can be set in this file
-
-***Note*** : You can quickly set the database information and other variables in this file and have the application fully working.
 
 
